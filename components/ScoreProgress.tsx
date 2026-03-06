@@ -21,14 +21,14 @@ export default function ScoreProgress({
     console.log('scores', scores)
   return (
     <div className="bg-white rounded-xl shadow p-6 w-full max-w-2xl">
-      <h2 className="text-lg font-semibold mb-6">Score Breakdown</h2>
+      <h2 className="text-lg font-semibold mb-6 text-black-600">Score Breakdown</h2>
 
       <div className="space-y-5">
         {scores.map((item) => (
           <div key={item.name}>
             <div className="flex justify-between text-sm mb-1">
-              <span>{item.name}</span>
-              <span className="font-medium">{item.score}%</span>
+              <span className="text-black-400">{item.name}</span>
+              <span className="font-medium text-black-400">{item.score}%</span>
             </div>
 
             <div className="w-full bg-gray-200 rounded-full h-3">
