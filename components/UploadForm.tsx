@@ -86,21 +86,21 @@ export default function UploadForm() {
               ]}
             />
           </div>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mt-6 h-100">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mt-6 h-auto">
             <InsightCard
               title="Strengths"
               items={result.strengths}
-              color="green"
+              color="#000080"
             />
             <InsightCard
               title="Weaknesses"
               items={result.weaknesses}
-              color="green"
+              color="rgb(141 94 94)"
             />
             <InsightCard
               title="Suggestions"
               items={result.suggestions}
-              color="green"
+              color="#008000"
             />
           </div>
         </>

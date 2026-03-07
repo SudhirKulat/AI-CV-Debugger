@@ -33,7 +33,7 @@ export async function POST(req: Request) {
   });
 
   const result = streamObject({
-    model: google("gemini-2.5-flash"),
+    model: google("gemini-3.1-flash-lite-preview"),
     schema,
     system: SYSTEM_PROMPT,
     prompt: `Analyze this CV:\n\n${text}`,

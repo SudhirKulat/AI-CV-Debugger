@@ -20,7 +20,7 @@ export default function ScoreProgress({
 }) {
     console.log('scores', scores)
   return (
-    <div className="bg-white rounded-xl shadow p-6 w-full max-w-2xl">
+    <div className="bg-[#fdfafa] rounded-xl shadow p-6 w-full max-w-2xl">
       <h2 className="text-lg font-semibold mb-6 text-black-600">Score Breakdown</h2>
 
       <div className="space-y-5">

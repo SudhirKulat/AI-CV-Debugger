@@ -6,7 +6,7 @@ export default function InsightCard({
 
   return (
     <div className={`p-5 rounded-xl bg-${color}-50 max-h-400 overflow-y-auto border-2 border-solid`}>
-      <h3 className={`font-bold text-${color}-700 mb-2`}>
+      <h3 className={`font-bold text-${color}-700 mb-2`} style={{color}}>
         {title}
       </h3>
 
