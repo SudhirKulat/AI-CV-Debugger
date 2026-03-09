@@ -78,11 +78,11 @@ export default function UploadForm() {
                   name: "Problem Solving",
                   score: result.categoryScores.problemSolving,
                 },
-                { name: "Structure", score: result.categoryScores.structure },
                 {
-                  name: "Structure",
+                  name: "Specialization",
                   score: result.categoryScores.specialization,
                 },
+                { name: "CV Structure", score: result.categoryScores.structure },
               ]}
             />
           </div>
