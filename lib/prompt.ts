@@ -39,6 +39,7 @@ SCORING CRITERIA:
    - Clean architecture
    - Design patterns
    - Code quality tools
+8. CV should follow the standard rules of ATS (Applicant Tracking Systems)
 
 OUTPUT FORMAT (STRICT JSON):
 
